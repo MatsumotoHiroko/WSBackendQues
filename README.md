@@ -23,7 +23,7 @@ pip install Flask-PyMongo
 - To run in Terminal:
 
 ```buildoutcfg
-set Flask_APP=backend.py
+export FLASK_APP=backend.py
 flask run
 ```
 
@@ -39,3 +39,16 @@ Use Postman to query the API
 
 _Disclaimer: All grants mentioned here are fictitious and do not reflect actual grants that are being
 worked on or implemented by any government ministries._
+
+# virtual environment
+```
+python3 -m venv env
+source env/bin/activate
+deactivate
+```
+
+## install module
+```
+pip install -r requirements.txt
+```
+
